@@ -12,9 +12,16 @@ body {
     color: #000;
 }
 
+/* logo and headings */
+
 #logo {
     font-family: 'Architects Daughter', sans-serif;
     font-size: 300%;
     text-transform: uppercase;
     color: #E69447;
+}
+
+h1, h2 {
+    font-family: 'Architects Daughter', sans-serif;
+    text-transform: uppercase; 
 }
