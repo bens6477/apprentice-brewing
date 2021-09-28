@@ -23,5 +23,16 @@ body {
 
 h1, h2 {
     font-family: 'Architects Daughter', sans-serif;
-    text-transform: uppercase; 
+    text-transform: uppercase;
+}
+
+
+/* navigation bar */
+header nav {
+    float: right;
+}
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 4px;
 }
