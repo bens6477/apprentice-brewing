@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 
 #logo {
     font-family: 'Architects Daughter', sans-serif;
     font-size: 300%;
     text-transform: uppercase;
-    color: #000;
+    color: #E69447;
 }
