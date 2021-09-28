@@ -16,16 +16,18 @@ body {
 
 #logo {
     float: left;
-    font-size: 300%;
+    font-size: 200%;
     text-transform: uppercase;
     color: #E69447;
     margin: 20px 0 0 30px;
+}
 
+#logo h1 {
     background-color: transparent;
     padding: 10px;
     border: 4px solid #E69447;
     border-radius: 10px;
-
+    width: 100%;
 }
 
 h1, h2 {
