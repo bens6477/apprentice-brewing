@@ -6,6 +6,11 @@
     border: none;
 }
 
+body {
+    font-family: Montserra, sans-serif;
+    font-weight: 300;
+    color: #000;
+}
 
 #logo {
     font-family: 'Architects Daughter', sans-serif;
