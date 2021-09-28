@@ -39,3 +39,9 @@ header nav {
     letter-spacing: 3px;
     text-transform: uppercase;
 }
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
+}
