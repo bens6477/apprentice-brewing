@@ -35,7 +35,6 @@ header nav {
     font-size: 80%;
     letter-spacing: 3px;
     text-transform: uppercase;
-    
 }
 
 #menu, #logo {
@@ -45,12 +44,17 @@ header nav {
 #menu li {
     float: left;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 #menu a {
     text-decoration: none;
     color: inherit;
+    text-align: center;
+}
+
+.active {
+    border-bottom: 1px solid black;
 }
 
 /* section */
