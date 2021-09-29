@@ -86,7 +86,7 @@ footer {
 
 /* recipe navigation bar */
 section nav {
-    float: right;
+    text-align: center;
 }
 
 #recipe-menu {
