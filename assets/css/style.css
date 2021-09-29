@@ -53,6 +53,11 @@ header nav {
     color: inherit;
 }
 
+/* section */
+section {
+    clear: both;
+}
+
 
 /* footer */
 footer {
