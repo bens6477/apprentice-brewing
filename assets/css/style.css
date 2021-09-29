@@ -94,3 +94,9 @@ section nav {
     letter-spacing: 3px;
     text-transform: uppercase;
 }
+
+#recipe-menu a {
+    text-decoration: none;
+    color: inherit;
+    margin: 0 20px;
+}
