@@ -56,8 +56,9 @@ header nav {
 
 /* footer */
 footer {
-    height 150px;
-    background-color: dark-orange;
+    clear: both;
+    height: 150px;
+    background-color: darkorange;
 }
 
 .social-networks {
@@ -67,5 +68,10 @@ footer {
 
 .social-networks li {
     display: inline;
-    /* list-style-type: none; */
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
 }
