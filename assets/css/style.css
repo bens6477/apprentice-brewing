@@ -57,7 +57,7 @@ header nav {
 /* footer */
 footer {
     clear: both;
-    height: 150px;
+    max-height: 150px;
     background-color: darkorange;
 }
 
