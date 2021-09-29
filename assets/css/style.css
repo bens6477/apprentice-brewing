@@ -83,3 +83,14 @@ footer {
     margin: 1%;
     padding: 5%;
 }
+
+/* recipe navigation bar */
+section nav {
+    float: right;
+}
+
+#recipe-menu {
+    font-size: 80%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
