@@ -53,3 +53,19 @@ header nav {
     color: inherit;
 }
 
+
+/* footer */
+footer {
+    height 150px;
+    background-color: dark-orange;
+}
+
+.social-networks {
+    text-align: center;
+    list-style-type: none;
+}
+
+.social-networks li {
+    display: inline;
+    /* list-style-type: none; */
+}
