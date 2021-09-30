@@ -16,7 +16,7 @@ body {
 h1, h2 {
     font-family: 'Architects Daughter', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
 }
 
 #logo {
@@ -33,7 +33,7 @@ header nav {
 
 #menu {
     font-size: 80%;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     text-transform: uppercase;
 }
 
@@ -91,7 +91,7 @@ section nav {
 
 #recipe-menu {
     font-size: 80%;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     text-transform: uppercase;
 }
 
