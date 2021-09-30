@@ -84,18 +84,18 @@ footer {
     padding: 5%;
 }
 
-/* recipe navigation bar */
+/* recipe and get-started navigation bar */
 section nav {
     text-align: center;
 }
 
-#recipe-menu {
+#recipe-menu, #get-started-menu {
     font-size: 80%;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
 
-#recipe-menu a {
+#recipe-menu a, #get-started-menu a {
     text-decoration: none;
     color: inherit;
     margin: 0 20px;
