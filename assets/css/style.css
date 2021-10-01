@@ -62,7 +62,6 @@ header nav {
     clear: both;
     background: url('../images/beer-body-2.jpg') no-repeat center center / cover;
     width: 100%;
-    padding-top: 20px;
 }
 
 /* section */
@@ -72,11 +71,7 @@ section {
 
 .container {
     clear: both;
-    width: 90%;
-    height: 90%;
     background-color: rgba(255, 140, 0, 0.95);
-    margin: 0 auto;
-    border-radius: 50px;
 }
 
 
