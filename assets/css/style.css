@@ -24,6 +24,10 @@ h3 {
     padding-bottom: 10px;
 }
 
+p {
+    padding-bottom: 5px;
+}
+
 #logo {
     float: left;
     font-size: 200%;
