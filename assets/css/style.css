@@ -71,6 +71,8 @@ section {
 
 .container {
     clear: both;
+    width: 60%;
+    margin: 0 auto;
     background-color: rgba(255, 140, 0, 0.95);
 }
 
