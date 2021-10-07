@@ -109,6 +109,17 @@ footer {
     padding: 5%;
 }
 
+
+/* recipe hero image */
+#hero-outer-spilled {
+    width: 100%;
+}
+
+#hero-image-spilled {
+    background: url('../images/beer-spilled-lower.jpg');
+    height: 100px;
+}
+
 /* recipe and get-started navigation bar */
 section nav {
     text-align: center;
