@@ -152,9 +152,15 @@ section nav {
 
 #recipe-menu, #get-started-menu {
     background: url('../images/beer-body-2.jpg') no-repeat center center / cover;
+    width: 100%;
+    overflow: hidden;
 }
 
-#recipe-menu a, #get-started-menu a {
+#recipe-menu div, #get-started-menu div {
+    background-color: rgba(255, 255, 255, 0.6);
+    float: left;
+    width: 10%;
+    height: 100px;
     
 }
 
