@@ -161,7 +161,9 @@ section nav {
     float: left;
     width: 10%;
     height: 100px;
-    
+    padding: 10px 0 0 10px;
+    text-align: center;
+    border: 1px solid white;
 }
 
 
