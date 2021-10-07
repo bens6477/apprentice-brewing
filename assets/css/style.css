@@ -151,16 +151,13 @@ section nav {
 }
 
 #recipe-menu, #get-started-menu {
-    font-size: 80%;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+    background: url('../images/beer-body-2.jpg') no-repeat center center / cover;
 }
 
 #recipe-menu a, #get-started-menu a {
-    text-decoration: none;
-    color: inherit;
-    margin: 0 20px;
+    
 }
+
 
 article {
     text-align: justify;
