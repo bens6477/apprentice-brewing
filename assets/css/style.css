@@ -113,6 +113,7 @@ footer {
 /* recipe hero image */
 #hero-outer-spilled {
     width: 100%;
+    overflow: hidden;
 }
 
 #hero-image-spilled {
@@ -120,6 +121,21 @@ footer {
     height: 400px;
     position: relative;
     text-align: center;
+
+    /* animates zoom effect on loading page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-direction: forwards;
+}
+
+/* creates the level of zoom for hero image */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
 }
 
 /* recipe title block */
@@ -138,6 +154,10 @@ footer {
 #recipe-cover-text h2 {
     padding-bottom: 0;
     margin: auto 0;
+}
+
+@frameworks {
+    
 }
 
 
