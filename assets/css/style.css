@@ -113,12 +113,37 @@ footer {
 /* recipe hero image */
 #hero-outer-spilled {
     width: 100%;
+    position: relative;
 }
 
 #hero-image-spilled {
     background: url('../images/beer-spilled-lower.jpg') center center / cover;
     height: 400px;
 }
+
+/* recipe title block */
+#recipe-cover-text {
+    text-align: center;
+
+    background-color: white;
+
+    width: 400px;
+    height: 100px;
+
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    margin-top: 0;
+    margin-left: -25%;
+}
+
+#recipe-cover-text h2 {
+    padding-bottom: 0;
+    margin: auto 0;
+}
+
 
 /* recipe and get-started navigation bar */
 section nav {
