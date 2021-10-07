@@ -116,8 +116,8 @@ footer {
 }
 
 #hero-image-spilled {
-    background: url('../images/beer-spilled-lower.jpg');
-    height: 100px;
+    background: url('../images/beer-spilled-lower.jpg') center center / cover;
+    height: 400px;
 }
 
 /* recipe and get-started navigation bar */
