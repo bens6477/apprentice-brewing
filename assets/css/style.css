@@ -125,11 +125,11 @@ footer {
 #recipe-cover-text {
     text-align: center;
 
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
 
     width: 400px;
     height: 100px;
-
 
     position: absolute;
     left: 50%;
