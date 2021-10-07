@@ -159,11 +159,12 @@ section nav {
 #recipe-menu div, #get-started-menu div {
     background-color: rgba(255, 255, 255, 0.6);
     float: left;
-    width: 10%;
+    width: 25%;
     height: 50px;
-    padding: 10px 0 0 10px;
+    padding: 20px 0 0 0;
     text-align: center;
     border: 1px solid white;
+    box-sizing: border-box;
     color: black;
     text-transform: uppercase;
 }
