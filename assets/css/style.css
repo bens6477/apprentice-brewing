@@ -23,6 +23,12 @@ h3 {
     text-align: center;
 }
 
+.heading-text {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
 p {
     padding-bottom: 5px;
 }
