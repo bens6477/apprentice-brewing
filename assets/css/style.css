@@ -125,7 +125,7 @@ footer {
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
     animation-duration: 5s;
-    animation-direction: forwards;
+    animation-fill-mode: forwards;
 }
 
 /* creates the level of zoom for hero image */
@@ -154,10 +154,6 @@ footer {
 #recipe-cover-text h2 {
     padding-bottom: 0;
     margin: auto 0;
-}
-
-@frameworks {
-    
 }
 
 
