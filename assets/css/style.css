@@ -59,16 +59,22 @@ p {
     /* line-height: 75px; */
 }
 
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
 #menu li {
     float: left;
     width: 25%;
     list-style-type: none;
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
+    color: white;
     background-color: darkgoldenrod;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+    padding: 10px
 }
 
 #menu a:hover {
