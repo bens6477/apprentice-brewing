@@ -31,7 +31,7 @@ p {
 #logo {
     float: left;
     font-size: 200%;
-    color: goldenrod;
+    color: darkgoldenrod;
     margin-left: 20px;
 }
 
@@ -71,8 +71,8 @@ header nav {
 }
 
 #menu a:hover {
-    color: goldenrod;
-    border-bottom: 1px solid goldenrod;
+    color: darkgoldenrod;
+    border-bottom: 1px solid darkgoldenrod;
 }
 
 .active {
@@ -119,7 +119,7 @@ footer {
 }
 
 .social-networks i {
-    color: black;
+    color: darkgoldenrod;
     font-size: 160%;
     margin: 20px;
     padding: 5px;
