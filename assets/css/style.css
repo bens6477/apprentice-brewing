@@ -114,6 +114,7 @@ footer {
 #hero-outer-spilled {
     width: 100%;
     overflow: hidden;
+    border-bottom: 1px solid white;
 }
 
 #hero-image-spilled {
@@ -185,7 +186,7 @@ section nav {
 }
 
 #recipe-menu div, #get-started-menu div {
-    background-color: rgba(220, 255, 255, 0.7);
+    background-color: rgba(245, 255, 255, 0.7);
     float: left;
     width: 25%;
     height: 50px;
@@ -198,7 +199,7 @@ section nav {
 }
 
 #recipe-menu div:hover {
-    background-color: rgba(200, 255, 255, 0.5);
+    background-color: rgba(200, 182, 67, 0.5);
 }
 
 article {
