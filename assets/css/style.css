@@ -33,6 +33,7 @@ p {
     position: fixed;
     top: 0;
     width: 100%;
+    border-bottom: 1px solid white;
     background-color: white;
     overflow: hidden;
     z-index: 1;
@@ -48,7 +49,7 @@ p {
 
 #logo {
     font-size: 200%;
-    color: darkgoldenrod;
+    color: goldenrod;
     margin: 0 auto;
     padding: 10px 0;
 }
@@ -58,10 +59,6 @@ p {
     font-size: 80%;
     letter-spacing: 1px;
     text-transform: uppercase;
-}
-
-#menu, #logo {
-    /* line-height: 75px; */
 }
 
 #menu a {
@@ -74,7 +71,7 @@ p {
     width: 25%;
     list-style-type: none;
     color: white;
-    background-color: darkgoldenrod;
+    background-color: goldenrod;
     border: 1px solid white;
     border-radius: 5px;
     box-sizing: border-box;
@@ -83,11 +80,13 @@ p {
 
 #menu a:hover {
     color: darkgoldenrod;
-    border-bottom: 1px solid darkgoldenrod;
+    border-bottom: 1px solid goldenrod;
 }
 
-.active {
-    border-bottom: 1px solid black;
+#menu .active li {
+    color: goldenrod;
+    border: 2px solid goldenrod;
+    background-color: white;
 }
 
 
@@ -130,7 +129,7 @@ footer {
 }
 
 .social-networks i {
-    color: darkgoldenrod;
+    color: goldenrod;
     font-size: 160%;
     margin: 20px;
     padding: 5px;
