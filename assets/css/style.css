@@ -36,6 +36,15 @@ p {
 }
 
 /* navigation bar */
+.fixed-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+    z-index: 1;
+}
+
 header nav {
     float: right;
 }
@@ -125,7 +134,6 @@ footer {
 #hero-image-spilled {
     background: url('../images/beer-spilled-lower.jpg') center center / cover;
     height: 400px;
-    position: relative;
     text-align: center;
 
     /* animates zoom effect on loading page */
