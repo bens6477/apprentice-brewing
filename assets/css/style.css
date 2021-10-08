@@ -104,8 +104,9 @@ section {
 /* footer */
 footer {
     clear: both;
-    max-height: 150px;
     background-color: white;
+    width: 100%;
+    max-height: 10px;
 }
 
 .social-networks {
@@ -118,9 +119,10 @@ footer {
 }
 
 .social-networks i {
+    color: black;
     font-size: 160%;
-    margin: 1%;
-    padding: 5%;
+    margin: 20px;
+    padding: 5px;
 }
 
 
