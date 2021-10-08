@@ -82,7 +82,7 @@ section {
     clear: both;
     width: 60%;
     margin: 0 auto;
-    padding: 30px;
+    padding: 5%;
     background-color: rgba(255, 255, 255, 0.9);
 }
 
@@ -164,7 +164,8 @@ section nav {
 
 #recipe-menu, #get-started-menu {
     background: url('../images/beer-body-2.jpg') no-repeat center center / cover;
-    width: 100%;
+    padding: 0;
+    width: 70%;
     overflow: hidden;
 }
 
