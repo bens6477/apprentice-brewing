@@ -68,6 +68,7 @@ p {
 #menu a {
     text-decoration: none;
     color: inherit;
+    background-color: darkgoldenrod;
 }
 
 #menu a:hover {
