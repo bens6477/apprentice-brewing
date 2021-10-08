@@ -82,7 +82,7 @@ section {
     clear: both;
     width: 60%;
     margin: 0 auto;
-    padding: 5%;
+    padding: 30px 5%;
     background-color: rgba(255, 255, 255, 0.9);
 }
 
@@ -171,6 +171,7 @@ section nav {
     /* animates background scroll effect on loading page */
     animation-name: background-scroll;
     animation-duration: 5s;
+    animation-timing-function: ease-in-out;
 }
 
 /* creates parameters for background scrolling */
@@ -184,7 +185,7 @@ section nav {
 }
 
 #recipe-menu div, #get-started-menu div {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(220, 255, 255, 0.7);
     float: left;
     width: 25%;
     height: 50px;
@@ -197,7 +198,7 @@ section nav {
 }
 
 #recipe-menu div:hover {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(200, 255, 255, 0.5);
 }
 
 article {
