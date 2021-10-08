@@ -42,10 +42,15 @@ p {
     text-align: center;
 }
 
+.header-logo a {
+    text-decoration: none;
+}
+
 #logo {
     font-size: 200%;
     color: darkgoldenrod;
     margin: 0 auto;
+    padding: 10px 0;
 }
 
 /* navigation bar */
@@ -73,7 +78,6 @@ p {
     border: 1px solid white;
     border-radius: 5px;
     box-sizing: border-box;
-
     padding: 10px
 }
 
