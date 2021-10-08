@@ -226,6 +226,11 @@ section nav {
     background-color: rgba(180, 182, 67, 0.5);
 }
 
+.center-image {
+    display: block;
+    margin: 0 auto;
+}
+
 article {
     text-align: justify;
     padding-bottom: 20px;
