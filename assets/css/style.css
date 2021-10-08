@@ -167,10 +167,24 @@ section nav {
     padding: 0;
     width: 70%;
     overflow: hidden;
+
+    /* animates background scroll effect on loading page */
+    animation-name: background-scroll;
+    animation-duration: 5s;
+}
+
+/* creates parameters for background scrolling */
+@keyframes background-scroll {
+    from {
+        background-position: 50% 100%;
+    }
+    from {
+        background-position: 50% 0;
+    }
 }
 
 #recipe-menu div, #get-started-menu div {
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.7);
     float: left;
     width: 25%;
     height: 50px;
@@ -182,6 +196,9 @@ section nav {
     text-transform: uppercase;
 }
 
+#recipe-menu div:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
 
 article {
     text-align: justify;
