@@ -204,6 +204,10 @@ footer {
     display: inline-block;
 }
 
+#contact-main {
+    width: 40%;
+}
+
 #cover-text h2, #contact-main h2 {
     padding-bottom: 0;
     margin: auto 0;
@@ -211,7 +215,7 @@ footer {
 
 /* style contact form */
 #contact-main {
-    padding: 30px;
+    padding: 50px;
 }
 
 form {
@@ -231,6 +235,7 @@ form {
 #message {
     height: 75px;
 }
+
 
 /* style sub-menu navigation bars */
 section nav {
