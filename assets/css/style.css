@@ -197,7 +197,7 @@ section nav {
     text-align: center;
 }
 
-#recipe-menu, #get-started-menu {
+.sub-menu {
     background: url('../images/beer-body-2.jpg') no-repeat center center / cover;
     padding: 0;
     width: 70%;
@@ -219,10 +219,9 @@ section nav {
     }
 }
 
-#recipe-menu div, #get-started-menu div {
+.sub-menu div {
     background-color: rgba(180, 182, 67, 0.5);
     float: left;
-    width: 25%;
     height: 50px;
     padding: 20px 0 0 0;
     text-align: center;
@@ -232,7 +231,15 @@ section nav {
     text-transform: uppercase;
 }
 
-#recipe-menu div:hover {
+#recipe-menu div {
+    width: 25%;
+}
+
+#resources-menu div {
+    width: 33.3333%;
+}
+
+.sub-menu div:hover {
     background-color: rgba(245, 255, 255, 0.7);
     color: black;
 }
