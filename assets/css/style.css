@@ -237,7 +237,7 @@ section nav {
     color: black;
 }
 
-#recipe-return-menu a {
+.return-menu a {
     display: inline-block;
     width: 25%;
     list-style-type: none;
