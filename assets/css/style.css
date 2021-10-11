@@ -209,6 +209,13 @@ footer {
     margin: auto 0;
 }
 
+/* style contact form */
+input[type="text"], input[type="email"], textarea {
+    background-color: transparent;
+    border: 1px solid black;
+    width: 50%;
+}
+
 
 /* style sub-menu navigation bars */
 section nav {
