@@ -184,25 +184,27 @@ footer {
     text-align: center;
 }
 
-/* title block */
+/* hero blocks */
 #cover-top {
     height: 45%;
 }
 
-#cover-text {
+#contact-top {
+    height: 20%;
+}
+
+#cover-text, #contact-main {
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.9);
     border-radius: 20px;
     padding: 20px 40px;
     display: inline-block;
 }
 
-#cover-text h2 {
+#cover-text h2, #contact-main h2 {
     padding-bottom: 0;
     margin: auto 0;
 }
-
-
 
 
 /* style sub-menu navigation bars */
