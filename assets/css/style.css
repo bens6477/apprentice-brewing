@@ -220,7 +220,7 @@ section nav {
 }
 
 #recipe-menu div, #get-started-menu div {
-    background-color: rgba(245, 255, 255, 0.7);
+    background-color: rgba(180, 182, 67, 0.5);
     float: left;
     width: 25%;
     height: 50px;
@@ -228,12 +228,13 @@ section nav {
     text-align: center;
     border: 1px solid white;
     box-sizing: border-box;
-    color: black;
+    color: white;
     text-transform: uppercase;
 }
 
 #recipe-menu div:hover {
-    background-color: rgba(180, 182, 67, 0.5);
+    background-color: rgba(245, 255, 255, 0.7);
+    color: black;
 }
 
 /* #recipe-return-menu {
