@@ -236,6 +236,23 @@ section nav {
     background-color: rgba(180, 182, 67, 0.5);
 }
 
+/* #recipe-return-menu {
+    text-align: center;
+} */
+
+#recipe-return-menu a {
+    display: inline-block;
+    width: 25%;
+    list-style-type: none;
+    color: white;
+    background-color: goldenrod;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+    text-decoration: none;
+}
+
 .center-image {
     display: block;
     margin: 0 auto;
