@@ -228,6 +228,9 @@ form {
     height: 25px;
 }
 
+#message {
+    height: 75px;
+}
 
 /* style sub-menu navigation bars */
 section nav {
