@@ -249,6 +249,7 @@ form p {
 
 input[type="submit"] {
     display: block;
+    margin: 0 auto;
 }
 
 /* style sub-menu navigation bars */
