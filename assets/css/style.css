@@ -245,7 +245,6 @@ form p {
 
 .radio-set {
     margin: 5px 0 20px 0;
-
 }
 
 input[type="submit"] {
@@ -320,6 +319,12 @@ section nav {
     padding: 12px 10px 10px 10px;
     text-decoration: none;
     text-align: center;
+}
+
+.button:hover {
+    background-color: white;
+    color: goldenrod;
+    border: 1px solid goldenrod;
 }
 
 /* style block style images */
