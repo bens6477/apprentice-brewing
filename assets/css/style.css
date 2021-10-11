@@ -249,6 +249,10 @@ section nav {
     color: black;
 }
 
+.return-menu {
+    text-align: center;
+}
+
 .return-menu a {
     display: inline-block;
     width: 25%;
@@ -260,6 +264,7 @@ section nav {
     box-sizing: border-box;
     padding: 10px;
     text-decoration: none;
+    text-align: center;
 }
 
 /* style block style images */
