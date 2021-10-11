@@ -11,6 +11,10 @@ body {
     color: #000;
 }
 
+article {
+    padding-bottom: 20px;
+}
+
 /* logo and headings */
 h1, h2, h3 {
     font-family: 'Josefin Sans', sans-serif;
@@ -192,7 +196,7 @@ footer {
 }
 
 
-/* recipe and get-started navigation bar */
+/* style sub-menu navigation bars */
 section nav {
     text-align: center;
 }
@@ -257,6 +261,7 @@ section nav {
     text-decoration: none;
 }
 
+/* style block style images */
 .center-image {
     display: block;
     margin: 0 auto;
@@ -265,6 +270,7 @@ section nav {
     border-radius: 40px;
 }
 
+/* style floating achor elements */
 .float-link {
     float: left;
     width: 25%;
@@ -303,7 +309,8 @@ section nav {
     margin-top: 15%;
 }
 
-article {
-    text-align: justify;
-    padding-bottom: 20px;
+
+/* embed youtube videos */
+.embedded-video {
+    text-align: center;
 }
