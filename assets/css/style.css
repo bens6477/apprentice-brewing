@@ -269,7 +269,8 @@ section nav {
     float: left;
     width: 25%;
     text-align: center;
-
+    color: black;
+    text-decoration: underline black;
 }
 
 .float-link div {
