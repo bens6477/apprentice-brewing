@@ -150,8 +150,8 @@ footer {
 }
 
 
-/* recipe hero image */
-#hero-outer-spilled {
+/* hero images */
+#hero-outer-spilled, #hero-outer-contact {
     width: 100%;
     overflow: hidden;
     border-bottom: 1px solid white;
@@ -178,6 +178,12 @@ footer {
     }
 }
 
+#hero-image-contact {
+    background: url('../images/people-enjoying-beer.jpg') center center / cover;
+    height: 400px;
+    text-align: center;
+}
+
 /* title block */
 #cover-top {
     height: 45%;
@@ -195,6 +201,8 @@ footer {
     padding-bottom: 0;
     margin: auto 0;
 }
+
+
 
 
 /* style sub-menu navigation bars */
