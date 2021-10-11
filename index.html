@@ -11,85 +11,88 @@
 
 </head>
 <body>
-    <header>
-        <a href="index.html">
-            <h1 id="logo">Apprentice Brewing</h1>
-        </a>
+    <header class="fixed-header">
+        <div class="header-logo">
+            <a href="index.html">
+                <h1 id="logo">Apprentice Brewing</h1>
+            </a>
+        </div>
         
-        <nav id="menu">
-            <ul>
-                <li>
-                    <a href="index.html" class="active">About</a>
-                </li>
-                <li>
-                    <a href="recipe.html">How To Brew</a>
-                </li>
-                <li>
-                    <a href="get-started.html">Get Started</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="header-nav">
+            <nav id="menu" class="heading-text">
+                <ul>
+                    <a href="index.html">
+                        <li>About</li>
+                    </a>
+                    <a href="recipe.html">
+                        <li>How To Brew</li>
+                    </a>
+                    <a href="get-started.html" class="active">
+                        <li>Get Started</li>
+                    </a>
+                    <a href="contact.html">
+                        <li>Contact</li>
+                    </a>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section>
-        Who we are
+    <section id="hero-outer-spilled" class="main">
+        <div id="hero-image-spilled">
+            <div id="cover-top"></div>
+            <div id="cover-text">
+                <h2>Get Started</h2>
+            </div>
+        </div>
+        
     </section>
 
-    <section>
-        What we offer
-    </section>
+    
 
-    <section>
-        <form action="#" method="POST">
-            <h2>Get in touch</h2>
+    <div id="background-image-main">
 
-            <label for="fname">First Name:</label>
-            <input type="text" id="fname" name="first_name" placeholder="Your First Name" required>
+        <nav id="resources-menu" class="container sub-menu heading-text">
+            <a href="#retailers">
+                <div>Retailers</div>
+            </a>
+            <a href="#beer-kits">
+                <div>Beer Kits</div>
+            </a>
+            <a href="#videos">
+                <div>Videos</div>
+            </a>
+        </nav>
 
-            <label for="lname">Last Name:</label>
-            <input type="text" id="lname" name="last_name" placeholder="Your Last Name" required>
+        <section class="container">
 
-            <label for="email">Email Address:</label>
-            <input type="email" id="email" name="email_address" placeholder="Your Email Address" required>
+            
+    
+            <nav class="return-menu heading-text">
+                <a href="#resources-menu">
+                    <div>Return To Top</div>
+                </a>
+            </nav>
+        </section>
+    
+        <footer>
+            <ul class="social-networks">
+                <li>
+                    <a href="https://facebook.com" target="_blank" rel=noopener aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com" target="_blank" rel=noopener aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="https://youtube.com" target="_blank" rel=noopener aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube"></i></a>
+                </li>
+                <li>
+                    <a href="https://instagram.com" target="_blank" rel=noopener aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+        </footer>
 
-            <label for="message">Message:</label>
-            <textarea type="text" id="message" name="message" placeholder="Write us a message..."></textarea>
-
-            <h3>Is this your first time brewing beer?</h3>
-            <input type="radio" id="yes" name="mailing_list" required>
-            <label for="yes">Yes</label>
-            <input type="radio" id="no" name="mailing_list">
-            <label for="no">No</label>
-
-            <h3>Would you like to join our mailing list?</h3>
-            <input type="radio" id="yes" name="mailing_list" required>
-            <label for="yes">Yes</label>
-            <input type="radio" id="no" name="mailing_list">
-            <label for="no">No</label>
-
-            <input type="submit">
-        </form>
-    </section>
-
-    <footer>
-        <ul class="social-networks">
-            <li>
-                <a href="https://facebook.com" target="_blank" rel=noopener aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="https://twitter.com" target="_blank" rel=noopener aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
-            </li>
-            <li>
-                <a href="https://youtube.com" target="_blank" rel=noopener aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
-            </li>
-            <li>
-                <a href="https://instagram.com" target="_blank" rel=noopener aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-            </li>
-        </ul>
-    </footer>
+    </div>    
 
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/45c64c2e27.js" crossorigin="anonymous"></script>
