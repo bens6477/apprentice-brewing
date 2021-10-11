@@ -173,12 +173,12 @@ footer {
     }
 }
 
-/* recipe title block */
-#recipe-cover-top {
+/* title block */
+#cover-top {
     height: 45%;
 }
 
-#recipe-cover-text {
+#cover-text {
     text-align: center;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 20px;
@@ -186,7 +186,7 @@ footer {
     display: inline-block;
 }
 
-#recipe-cover-text h2 {
+#cover-text h2 {
     padding-bottom: 0;
     margin: auto 0;
 }
