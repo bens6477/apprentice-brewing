@@ -356,12 +356,13 @@ section nav {
     transform: translate(-50%, -50%);
 }
 
-/* style block style images */
+/* style block images */
 .center-image {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
 }
 
+/* target specific block images */
 #equipment img {
     width: 100%;
     transform: translate(-50%, -50%);
@@ -408,7 +409,6 @@ section nav {
 .float-margin-adjust {
     margin: 20px 0 0 0;
 }
-
 
 
 .beer-kit-caption {
@@ -503,5 +503,9 @@ section nav {
     .button {
         width: 40%;
         font-size: 60%;
+    }
+
+    .center-image {
+        width: 70%;
     }
 }
