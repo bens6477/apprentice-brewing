@@ -372,30 +372,17 @@ section nav {
 }
 
 /* style individual images */
-#love-brewing-kit {
-    width: 60%;
+#love-brewing-logo, #balliihoo-logo, #northern-brewer-logo {
+    width: 90%;
 }
 
-#balliihoo-kit {
+#love-brewing-kit, #balliihoo-kit {
     width: 60%;
 }
 
 #northern-brewer-kit {
     width: 80%;
 }
-
-#love-brewing-logo {
-    margin-top: 20%;
-}
-
-#coopers-logo {
-    margin-top: 5%;
-}
-
-#balliihoo-logo {
-    margin-top: 15%;
-}
-
 
 /* embed youtube videos */
 .video-container {
