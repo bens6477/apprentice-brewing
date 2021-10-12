@@ -387,3 +387,26 @@ section nav {
 .embedded-video {
     text-align: center;
 }
+
+/* media queries for responsive design */
+
+/* For larger to medium screen sizes from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 70%;
+    }
+}
+
+/* For larger to medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+    .container {
+        width: 80%;
+    }
+}
+
+/* For small screen sizes from 800px wide and down */
+@media screen and (max-width: 800px) {
+    .container {
+        width: 100%;
+    }
+}
