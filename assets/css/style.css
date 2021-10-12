@@ -13,7 +13,7 @@ body {
 
 article {
     clear: both;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 /* logo and headings */
@@ -348,10 +348,11 @@ section nav {
     text-align: center;
     color: black;
     text-decoration: underline black;
+    margin: 20px 0 10px 0;
 }
 
-.float-link h4 {
-    min-height: 80px;
+.float-margin-adjust {
+    margin: 20px 0 0 0;
 }
 
 .image-container {
@@ -360,7 +361,7 @@ section nav {
     border-radius: 10px;
     white-space: nowrap;
     box-sizing: border-box;
-    margin: 20px 10px;
+    margin: 20px 10px 5px 10px;
 
     position: relative;
     padding-bottom: 56.25%;
@@ -375,6 +376,10 @@ section nav {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.beer-kit-caption {
+    height: 50px;
 }
 
 /* style individual images */
