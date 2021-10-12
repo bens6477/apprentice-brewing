@@ -334,11 +334,8 @@ section nav {
 
 /* style block style images */
 .center-image {
-    display: block;
+    width: 50%;
     margin: 0 auto;
-    padding: 20px 0;
-    height: 300px;
-    border-radius: 40px;
 }
 
 /* style floating anchor elements */
@@ -355,6 +352,7 @@ section nav {
     margin: 20px 0 0 0;
 }
 
+/* style image boxes */
 .image-container {
     background-color: white;
     border: 2px solid black;
