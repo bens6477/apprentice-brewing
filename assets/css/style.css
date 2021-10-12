@@ -71,7 +71,7 @@ hr {
 
 /* navigation bar */
 #menu {
-    font-size: 80%;
+    font-size: 100%;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
@@ -431,4 +431,11 @@ section nav {
     #contact-container {
         width: 80%;
     }
+
+    #logo {
+        font-size: 150%;
+    }
+
+    #menu {
+        font-size: 80%;    }
 }
