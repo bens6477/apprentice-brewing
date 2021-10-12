@@ -362,13 +362,17 @@ section nav {
     margin: 0 auto;
 }
 
+.center-image .image-container {
+    padding-top: 0;
+}
+
 /* target specific block images */
 #sanitise img {
-    width: 150%;
+    width: 120%;
     transform: translate(-40%, -50%);
 }
 #ferment img {
-    width: 140%;
+    width: 150%;
 }
 #bottle img {
     width: 130%;
@@ -469,7 +473,7 @@ section nav {
     }
 }
 
-/* For small screen sizes from 800px wide and down */
+/* For smaller screen sizes from 800px wide and down */
 @media screen and (max-width: 800px) {
     .container {
         width: 100%;
@@ -494,5 +498,12 @@ section nav {
 
     .center-image {
         width: 70%;
+    }
+}
+
+/* For small screen sizes from 1200px wide and down */
+@media screen and (max-width: 400px) {
+    .center-image {
+        width: 100%;
     }
 }
