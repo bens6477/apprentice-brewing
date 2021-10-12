@@ -382,6 +382,11 @@ section nav {
     height: 50px;
 }
 
+.article-padding {
+    clear: both;
+    height: 30px;
+}
+
 /* style individual images */
 #love-brewing-logo, #balliihoo-logo, #northern-brewer-logo {
     width: 90%;
