@@ -196,7 +196,7 @@ footer {
     height: 100px;
 }
 
-#cover-text, #contact-main {
+#cover-text, #contact-container {
     text-align: center;
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 20px;
@@ -204,7 +204,7 @@ footer {
     display: inline-block;
 }
 
-#contact-main {
+#contact-container {
     width: 40%;
 }
 
@@ -395,6 +395,10 @@ section nav {
     .container {
         width: 70%;
     }
+
+    #contact-container {
+        width: 50%;
+    }
 }
 
 /* For larger to medium screen sizes from 950px wide and down */
@@ -402,11 +406,19 @@ section nav {
     .container {
         width: 80%;
     }
+
+    #contact-container {
+        width: 70%;
+    }
 }
 
 /* For small screen sizes from 800px wide and down */
 @media screen and (max-width: 800px) {
     .container {
         width: 100%;
+    }
+
+    #contact-container {
+        width: 80%;
     }
 }
