@@ -362,9 +362,37 @@ section nav {
     margin: 0 auto;
 }
 
+#equipment img {
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
 #sanitise img {
     width: 150%;
     transform: translate(-40%, -50%);
+}
+#brew img {
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+#ferment img {
+    width: 140%;
+    transform: translate(-50%, -50%);
+}
+#bottle img {
+    width: 130%;
+    transform: translate(-50%, -50%);
+}
+#carbonate img {
+    width: 120%;
+    transform: translate(-50%, -50%);
+}
+#enjoy img {
+    width: 110%;
+    transform: translate(-50%, -50%);
+}
+#repeat img {
+    width: 150%;
+    transform: translate(-50%, -50%);
 }
 
 /* style floating anchor elements */
