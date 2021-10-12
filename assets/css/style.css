@@ -410,6 +410,14 @@ section nav {
     #contact-container {
         width: 70%;
     }
+
+    #recipe-menu div {
+        width: 50%;
+    }
+    
+    #resources-menu div {
+        width: 100%;
+    }
 }
 
 /* For small screen sizes from 800px wide and down */
