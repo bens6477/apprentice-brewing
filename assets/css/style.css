@@ -332,26 +332,6 @@ section nav {
     border: 1px solid goldenrod;
 }
 
-/* style block style images */
-.center-image {
-    width: 50%;
-    margin: 0 auto;
-}
-
-/* style floating anchor elements */
-.float-link {
-    float: left;
-    width: 50%;
-    text-align: center;
-    color: black;
-    text-decoration: underline black;
-    margin: 20px 0 10px 0;
-}
-
-.float-margin-adjust {
-    margin: 20px 0 0 0;
-}
-
 /* style image boxes */
 .image-container {
     background-color: white;
@@ -375,6 +355,34 @@ section nav {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+/* style block style images */
+.center-image {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#sanitise img {
+    width: 150%;
+    transform: translate(-40%, -50%);
+
+}
+
+/* style floating anchor elements */
+.float-link {
+    float: left;
+    width: 50%;
+    text-align: center;
+    color: black;
+    text-decoration: underline black;
+    margin: 20px 0 10px 0;
+}
+
+.float-margin-adjust {
+    margin: 20px 0 0 0;
+}
+
+
 
 .beer-kit-caption {
     height: 50px;
