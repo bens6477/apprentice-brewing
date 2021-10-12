@@ -31,7 +31,8 @@ h3 {
 .heading-text {
     font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    font-weight: 600;
 }
 
 p {
