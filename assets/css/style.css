@@ -386,8 +386,20 @@ section nav {
 
 
 /* embed youtube videos */
-.embedded-video {
-    text-align: center;
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /* media queries for responsive design */
@@ -395,7 +407,7 @@ section nav {
 /* For larger to medium screen sizes from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     .container {
-        width: 70%;
+        width: 700;
     }
 
     #contact-container {
@@ -437,5 +449,6 @@ section nav {
     }
 
     #menu {
-        font-size: 80%;    }
+        font-size: 80%;    
+    }
 }
