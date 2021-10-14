@@ -264,7 +264,6 @@ section nav {
 .sub-menu {
     background: url('../images/beer-body-2.jpg') no-repeat center center / cover;
     padding: 0;
-    width: 70%;
     overflow: hidden;
 
     /* animates background scroll effect on loading page */
