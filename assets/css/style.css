@@ -78,7 +78,7 @@ hr {
 }
 
 #logo:hover {
-    color: darkgoldenrod;
+    color: #ffffff;
 }
 
 /* navigation bar */
@@ -106,7 +106,7 @@ hr {
 }
 
 #menu div:hover, #menu .active div:hover {
-    background-color: darkgoldenrod;
+    background-color: #ffffff;
     color: black;
     border: 2px solid black;
 }
