@@ -100,9 +100,10 @@ hr {
     padding: 10px
 }
 
-#menu a:hover {
-    color: darkgoldenrod;
-    border-bottom: 1px solid goldenrod;
+#menu div:hover, #menu .active div:hover {
+    background-color: darkgoldenrod;
+    color: black;
+    border: 2px solid black;
 }
 
 #menu .active div {
