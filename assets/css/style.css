@@ -159,7 +159,9 @@ footer {
     width: 100%;
     overflow: hidden;
     border-bottom: 1px solid white;
+    position: relative;
 }
+
 #hero-outer-contact {
     border-top: 1px solid white;
 }
@@ -192,21 +194,28 @@ footer {
 }
 
 /* hero blocks */
-#cover-top {
-    height: 45%;
+#cover-text {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    padding: 20px 40px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-#contact-top, #contact-bottom {
-    height: 100px;
-}
-
-#cover-text, #contact-container {
+#contact-container {
     text-align: center;
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 20px;
     padding: 20px 40px;
     display: inline-block;
 }
+
+
+
 
 #contact-container {
     width: 40%;
