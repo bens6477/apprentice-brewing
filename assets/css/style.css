@@ -45,6 +45,11 @@ hr {
     border-top: 1px solid black;
 }
 
+.clear {
+    clear: both;
+    line-height: 0px;
+}
+
 /* header */
 .fixed-header {
     position: fixed;
@@ -398,14 +403,6 @@ section nav {
 
 .beer-kit-caption {
     height: 50px;
-}
-
-#beer-kits {
-    padding-top: 50px;
-}
-
-#videos {
-    padding-top: 70px;
 }
 
 /* style individual images */
