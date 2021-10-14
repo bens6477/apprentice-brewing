@@ -372,6 +372,7 @@ article ul, article ol {
 .center-image {
     width: 60%;
     margin: 0 auto;
+    padding-bottom: 20px;
 }
 
 .center-image .image-container {
