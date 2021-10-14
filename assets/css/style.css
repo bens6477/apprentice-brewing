@@ -222,6 +222,20 @@ footer {
 }
 
 /* style home page images */
+.slim-image {
+    float: left;
+    width: 50%;
+    overflow: hidden;
+}
+
+.slim-image img {
+    width:100%;
+    /* height: 200px; */
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
 .wide-image img {
     width: 100%;
     border-radius: 10px;
