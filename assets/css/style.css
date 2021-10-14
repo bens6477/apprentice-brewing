@@ -165,15 +165,10 @@ footer {
 
 
 /* hero images */
-#hero-outer-spilled, #hero-outer-contact {
+.hero-outer {
     width: 100%;
     overflow: hidden;
     border-bottom: 1px solid #000000;
-    position: relative;
-}
-
-#hero-outer-contact {
-    border-top: 1px solid #000000;
     position: relative;
 }
 
