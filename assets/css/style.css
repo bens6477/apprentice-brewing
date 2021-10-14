@@ -74,6 +74,11 @@ hr {
     color: goldenrod;
     margin: 0 auto;
     padding: 10px 0;
+    display: inline-block;
+}
+
+#logo:hover {
+    color: darkgoldenrod;
 }
 
 /* navigation bar */
