@@ -501,8 +501,12 @@ article ul, article ol {
         font-size: 80%;    
     }
 
+    #cover-text {
+        width: 80%;
+    }
+
     .button {
-        width: 40%;
+        width: 50%;
         font-size: 60%;
     }
 
