@@ -172,7 +172,7 @@ footer {
     position: relative;
 }
 
-#hero-image-spilled {
+.hero-image-spilled {
     background: url('../images/beer-spilled-lower.jpg') center center / cover;
     height: 400px;
     text-align: center;
