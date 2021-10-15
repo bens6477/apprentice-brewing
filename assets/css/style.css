@@ -24,9 +24,6 @@ h1, h2, h3 {
     text-transform: uppercase;
     letter-spacing: 1px;
     padding-bottom: 10px;
-}
-
-h2, h3 {
     text-align: center;
 }
 
@@ -49,6 +46,7 @@ p a {
 
 hr {
     border-top: 1px solid black;
+    padding-bottom: 20px;
 }
 
 .clear {
@@ -228,6 +226,10 @@ footer {
 }
 
 /* style home page images */
+.image-gallery {
+    margin: 20px 0;
+}
+
 .slim-image {
     float: left;
     width: 50%;
