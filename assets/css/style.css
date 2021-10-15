@@ -375,7 +375,7 @@ article ul, article ol {
 /* style tips boxes */
 .tips-box {
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 10px;
     width: 90%;
     margin: 20px auto;
     padding: 20px;
@@ -437,7 +437,8 @@ article ul, article ol {
     width: 110%;
 }
 #repeat img {
-    width: 150%;
+    width: 140%;
+    transform: translate(-50%, -48%);
 }
 
 /* style floating anchor elements */
