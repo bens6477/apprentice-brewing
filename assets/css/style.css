@@ -19,7 +19,7 @@ article {
 }
 
 /* logo and headings */
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -32,6 +32,10 @@ h1, h2, h3 {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 600;
+}
+
+.center-text {
+    text-align: center;
 }
 
 p {
@@ -368,10 +372,19 @@ article ul, article ol {
     /* text-indent: 1rem; */
 }
 
+/* style tips boxes */
+.tips-box {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
 /* style image boxes */
 .image-container {
     background-color: white;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 10px;
     white-space: nowrap;
     box-sizing: border-box;
