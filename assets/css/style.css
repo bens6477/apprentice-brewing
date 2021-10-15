@@ -42,7 +42,7 @@ p {
     padding-bottom: 5px;
 }
 
-p a {
+.hyperlink {
     text-decoration: underline;
     font-weight: 600;
     color: black;
