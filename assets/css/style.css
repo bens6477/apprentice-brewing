@@ -419,6 +419,7 @@ article ul, article ol {
 /* target specific block images */
 #equipment img {
     width: 110%;
+    transform: translate(-50%, -45%);
 }
 #sanitise img {
     width: 140%;
