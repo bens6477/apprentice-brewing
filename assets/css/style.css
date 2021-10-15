@@ -478,6 +478,7 @@ article ul, article ol {
     padding-top: 35px;
     height: 0;
     overflow: hidden;
+    margin: 10px 0 20px 0;
 }
 
 .video-container iframe {
@@ -486,6 +487,10 @@ article ul, article ol {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+#videos h4 {
+    padding-top: 30px;
 }
 
 /* media queries for responsive design */
