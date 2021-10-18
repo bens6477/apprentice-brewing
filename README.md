@@ -26,6 +26,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
     * [Adventures in Homebrewing - How to Make Your Own Beer]()
     * [Balliihoo - Basic Guide to Making Beer from a Kit](https://www.balliihoo.co.uk/images/bradweb/downloads/balliihoo_leaflet.pdf)
 * The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+* All fonts were imported from [Google Fonts](https://fonts.google.com/)
 
 ### Media
 * The background and hero images were taken from - https://www.pexels.com/

@@ -562,4 +562,9 @@ article ul, article ol {
     .center-image {
         width: 100%;
     }
+
+    .social-networks i {
+        font-size: 80%;
+        margin: 10px;
+    }
 }
