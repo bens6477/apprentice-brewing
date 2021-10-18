@@ -7,6 +7,15 @@
 
 ## Testing
 
+### Validator Testing
+* HTML
+    * No errors were returned when passing through the official W3C validator
+* CSS
+    * No errors were found when passing through the official (Jigsaw) validator
+* Accessibility
+    * The website was tested using the Lighthouse function in Chrome DevTools, showing a very high level of accessibility.
+
+![Lighthouse results](assets/images/readme/lighthouse-results.webp)
 
 ## Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:
