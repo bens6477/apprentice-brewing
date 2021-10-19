@@ -1,29 +1,67 @@
 # Apprentice Brewing
 
+Apprentice Brewing was founded to educate and engage people in the creative world of homebrewing.
+
 ## Features
 ![Apprentice Brewing website running on Am I Responsive website](assets/images/readme/am-i-responsive.webp)
-* Navigation
+
+* **Navigation**
+    * The navigation bar shows the three main pages of the website which assist the user with smoot navigation. The header is consistent throughout all pages and is fixed to the top of the screen, meaning users can navigate to different pages easily.
+    * The submenus in the Brew and Resources pages allow the user to skip to the section they desire to view without manually scrolling themselves.
+    * Throughout the website there are several anchor elements which redirect the user to relevant pages and sub-sections of the website. For example in the introduction, several pages and sections within the website are hyperlinked within the paragraph to quickly redirect the user.
+    * There is also a 'Return To Top' button at the bottom of the page to save the user from scrolling back up to the top of the page.
+    ![Header](assets/images/readme/header.PNG)
+
     * Submenu
     * 'Return To Top' Button
 
-* Introduction
+* **Introduction**
+    * Users are welcomed to the site by an introduction to the Apprentice Brewing organisation and a small gallery of homebrew beer to encourage curiosity for the user to explore the site more.
+    ![Introduction section](assets/images/readme/who-we-are.PNG)
 
-* Contact Form
 
-* Brewing Guide
+* **Contact Form**
+    * The contact from enables users to contact us with any questions they may have about brewing or the organisation. They also have the option to join the mailing list to stay informed on company updates and recommendations.
+    * The background image of people laughing and enjoying a beer expresses the company's desire to connect with their user community and encourages the user to get in touch.  
+    ![Contact Form](assets/images/readme/contact-form.PNG)
 
-* Recommended Resources
+* **Animations**
+    ![Hero image](assets/images/readme/hero-image.PNG)
+    * Hero Image Zoom
+    This is the first thing the user will see on the site as the image is animated to zoom in 10% upon loading the page.
+    * Submenu Pan
+    The submenus are designed with a background image of the carbonation bubbles within a beer. Upon loading the pages the image scrolls from the top of the image to the bottom, giving the impression that the bubbles are rising through the menu.  
 
-* Animations
+* **Brewing Guide**
+    ![Brewing guide](assets/images/readme/brew-guide.PNG)
+    
+    * The Equipment section provides direct hyperlinks to each product. This allows the user to familiarise themselves with what product looks like, and with a recommendation of a cheap option for each product should they wish to buy them.
 
-* Direct Product Links
+* **Recommended Resources**
+    ![Best beer kits](assets/images/readme/best-beer-kits.PNG)
+    * The resources section offer the user with products and information for them to explore to get started. Four key retailers are recommended, which vary in price and quality, so that a wide budget range is covered. Users can click on each retailer anchor block to be redirected to their respectivel websites. Each website opens in a new tab to keep the user's position on our website to easily return to the resources page later. 
 
-* Tutorials Videos
+* **Tutorials Videos**
+    ![Embedded tutorial video](assets/images/readme/embedded-videos.PNG)
+    * The tutorial videos allow users to visually learn from expert brewers and beer enthusiasts to accelerate their knowledge of brewing processes and technques. Users can choose to open the videos externally on the Youtube in another tab by clicking the integrated 'Watch on YouTube' button.
+
+
+
+    
+
+
+
+* **Direct Product Links**
+
+* **Hero Image**
+
+
 
 ### Future Features
 Various additional features would bring a greater user experience to the website: 
+* The addition of a dedicated 'Tips' webpage would enable brewers to build upon their base knowledge by learning concepts including how to improve their process in brewing, the taste of their beer, and how to experiment with new flavours.
 * The addition of user feedback through comments sections would allow for continual site improvement and additional perspectives from fellow brewers.
-* The addition of a user up- or down-voting system on the recommended products would help users to make an informed decision on what to buy by considering the recommendations of the site users.
+* The addition of a user up/down-voting system on the recommended products would help users to make an informed decision on what to buy by considering the recommendations of the site users.
 
 
 ## Testing
@@ -33,11 +71,11 @@ Various additional features would bring a greater user experience to the website
 * The website was responsive across screen sizes between 320px and 1600px in width. Content readablility was optimised by altering the size and positioning of elements. The Developer Tools function was used to test this across Google Chrome, Mozilla Firefox and Microsoft Edge to verify the site was fully responsive across the specificed screen witdhs and across different browsers.
 
 ### Validator Testing
-* HTML
+* **HTML**
     * No errors were found when running the html code through the [official W3C validator](https://validator.w3.org/)
-* CSS
+* **CSS**
     * No errors were found when running the css code through the [official W3C Jigsaw validator](https://jigsaw.w3.org/css-validator/)
-* Accessibility
+* **Accessibility**
     * The website was tested using the Lighthouse function in Chrome DevTools, showing a very high level of accessibility.
 
 ![Lighthouse results](assets/images/readme/lighthouse-results.webp)
