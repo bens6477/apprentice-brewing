@@ -1,21 +1,47 @@
 # Apprentice Brewing
 
-
-
 ## Features
+![Apprentice Brewing website running on Am I Responsive website](assets/images/readme/am-i-responsive.webp)
+* Navigation
+    * Submenu
+    * 'Return To Top' Button
+
+* Introduction
+
+* Contact Form
+
+* Brewing Guide
+
+* Recommended Resources
+
+* Animations
+
+* Direct Product Links
+
+* Tutorials Videos
+
+### Future Features
+Various additional features would bring a greater user experience to the website: 
+* The addition of user feedback through comments sections would allow for continual site improvement and additional perspectives from fellow brewers.
+* The addition of a user up- or down-voting system on the recommended products would help users to make an informed decision on what to buy by considering the recommendations of the site users.
 
 
 ## Testing
+* All links and images on the website work correctly and all elements are responsive to screen size.
+* All embedded videos play within the site when clicked and successfully redirect to the Youtube site when requested. 
+* The website was tested across various browsers, including Google Chrome, Mozilla Firefox and Microsoft Edge.
+* The website was responsive across screen sizes between 320px and 1600px in width. Content readablility was optimised by altering the size and positioning of elements. The Developer Tools function was used to test this across Google Chrome, Mozilla Firefox and Microsoft Edge to verify the site was fully responsive across the specificed screen witdhs and across different browsers.
 
 ### Validator Testing
 * HTML
-    * No errors were returned when passing through the official W3C validator
+    * No errors were found when running the html code through the [official W3C validator](https://validator.w3.org/)
 * CSS
-    * No errors were found when passing through the official (Jigsaw) validator
+    * No errors were found when running the css code through the [official W3C Jigsaw validator](https://jigsaw.w3.org/css-validator/)
 * Accessibility
     * The website was tested using the Lighthouse function in Chrome DevTools, showing a very high level of accessibility.
 
 ![Lighthouse results](assets/images/readme/lighthouse-results.webp)
+
 
 ## Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:
@@ -25,6 +51,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 1. Under Source click the drop-down menu labelled None and select main as the branch.
 1. Once saved the link to the page will be provided above the ‘Source’ sub-section upon refreshing.
 1. The live link can be found here - https://bens6477.github.io/apprentice-brewing/
+
 
 ## Credits
 
