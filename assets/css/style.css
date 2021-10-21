@@ -43,16 +43,22 @@ p {
 }
 
 .hyperlink {
-    text-decoration: underline;
     font-weight: 600;
     color: #000000;
+    text-decoration: none;
 }
 
+.hyperlink:hover {
+    text-decoration: underline;
+}
+
+/* style horizontal rule */
 hr {
     border-top: 1px solid #000000;
     padding-bottom: 20px;
 }
 
+/* create clear class to clear floats and fully contain all child elements within parent elements  */
 .clear {
     clear: both;
     line-height: 0px;
