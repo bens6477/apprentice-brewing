@@ -497,10 +497,6 @@ article ul, article ol {
 
 /* For larger to medium screen sizes from 1200px wide and down */
 @media screen and (max-width: 1200px) {
-    .container {
-        width: 700;
-    }
-
     #contact-container {
         width: 50%;
     }

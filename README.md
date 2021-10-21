@@ -39,7 +39,8 @@ Apprentice Brewing was founded to educate and engage people in the creative worl
 
 
 * **Recommended Resources**
-    * The resources section offer the user with products and information for them to explore to get started. Four key retailers are recommended, which vary in price and quality, so that a wide budget range is covered. Users can click on each retailer anchor block to be redirected to their respectivel websites. Each website opens in a new tab to keep the user's position on our website to easily return to the resources page later. 
+    * The resources section offer the user with products and information for them to explore to get started. Four key retailers are recommended, which vary in price and quality, so that a wide budget range is covered.
+    * Users can click on each retailer anchor block to be redirected to their respectivel websites. Each website opens in a new tab to keep the user's position on our website to easily return to the resources page later. 
     ![Best beer kits](assets/images/readme/best-beer-kits.PNG)
 
 * **Tutorials Videos**
