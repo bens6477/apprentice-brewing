@@ -26,36 +26,25 @@ Apprentice Brewing was founded to educate and engage people in the creative worl
     ![Contact Form](assets/images/readme/contact-form.PNG)
 
 * **Animations**
-    ![Hero image](assets/images/readme/hero-image.PNG)
     * Hero Image Zoom
     This is the first thing the user will see on the site as the image is animated to zoom in 10% upon loading the page.
     * Submenu Pan
     The submenus are designed with a background image of the carbonation bubbles within a beer. Upon loading the pages the image scrolls from the top of the image to the bottom, giving the impression that the bubbles are rising through the menu.  
+    ![Hero image](assets/images/readme/hero-image.PNG)
+
 
 * **Brewing Guide**
-    ![Brewing guide](assets/images/readme/brew-guide.PNG)
-    
     * The Equipment section provides direct hyperlinks to each product. This allows the user to familiarise themselves with what product looks like, and with a recommendation of a cheap option for each product should they wish to buy them.
+    ![Brewing guide](assets/images/readme/brew-guide.PNG)
+
 
 * **Recommended Resources**
-    ![Best beer kits](assets/images/readme/best-beer-kits.PNG)
     * The resources section offer the user with products and information for them to explore to get started. Four key retailers are recommended, which vary in price and quality, so that a wide budget range is covered. Users can click on each retailer anchor block to be redirected to their respectivel websites. Each website opens in a new tab to keep the user's position on our website to easily return to the resources page later. 
+    ![Best beer kits](assets/images/readme/best-beer-kits.PNG)
 
 * **Tutorials Videos**
-    ![Embedded tutorial video](assets/images/readme/embedded-videos.PNG)
     * The tutorial videos allow users to visually learn from expert brewers and beer enthusiasts to accelerate their knowledge of brewing processes and technques. Users can choose to open the videos externally on the Youtube in another tab by clicking the integrated 'Watch on YouTube' button.
-
-
-
-    
-
-
-
-* **Direct Product Links**
-
-* **Hero Image**
-
-
+    ![Embedded tutorial video](assets/images/readme/embedded-videos.PNG)
 
 ### Future Features
 Various additional features would bring a greater user experience to the website: 
