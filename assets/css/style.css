@@ -518,6 +518,10 @@ article ul, article ol {
         width: 70%;
     }
 
+    .sub-menu {
+        background-size: 200%;
+    }
+
     #recipe-menu div {
         width: 50%;
     }
@@ -559,8 +563,12 @@ article ul, article ol {
     }
 }
 
-/* For small screen sizes from 1200px wide and down */
+/* For small screen sizes from 400px wide and down */
 @media screen and (max-width: 400px) {
+    .sub-menu {
+        background-size: 300%;
+    }
+    
     .center-image {
         width: 100%;
     }
