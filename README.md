@@ -53,7 +53,7 @@ Apprentice Brewing was founded to educate and engage people in the creative worl
 
 ## Features
 ### Navigation
-* The navigation bar shows the three main pages of the website which assist the user with smoot navigation. The header is consistent throughout all pages and is fixed to the top of the screen, meaning users can navigate to different pages easily.
+* The navigation bar shows the three main pages of the website which assist the user with smooth navigation. The header is consistent throughout all pages and is fixed to the top of the screen, meaning users can navigate to different pages easily.
 * The submenus in the Brew and Resources pages allow the user to skip to the section they desire to view without manually scrolling themselves.
 * Throughout the website there are several anchor elements which redirect the user to relevant pages and sub-sections of the website. For example in the introduction, several pages and sections within the website are hyperlinked within the paragraph to quickly redirect the user. The the text is underlined upon hovering the cursor over the hyperlinks to indicate to the user that it is an active link.  
 * There is also a 'Return To Top' button at the bottom of the page to save the user from scrolling back up to the top of the page.
@@ -125,7 +125,7 @@ Various additional features would bring a greater user experience to the website
     * **Resolution** - Initially a supplementary empty div was placed about the image requiring centering to act as a spacer. However a much cleaner and simpler solution was employed by using  the transform:translate(50%, 50%) function alongside relative positioning. This enabled the element to be positioned relative to its center rather than the edges.
     * **Reference code*
 * **Issue** - Fully containing floated elements within parent div elements
-    * **Resolution** - A <br> element was created with class="clear" which assigned attributes of clear:both and line-height:0. This meant that any floats currently active were cancelled and the <br> element expanded the div element to fully contain all child elements.
+    * **Resolution** - A br element was created with class="clear" which assigned attributes of clear:both and line-height:0. This meant that any floats currently active were cancelled and the br element expanded the div element to fully contain all child elements.
     * **Reference code*
 * **Issue** - Header blocking the section titles after clicking on submenu hyperlinks
     * **Resolution** - An additional buffer was added when redirecting to different section via scroll-padding-top: 6rem. This added 6rem on to the absolue position of the titles to accomodate with the height of the header.
