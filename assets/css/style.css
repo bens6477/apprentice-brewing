@@ -84,7 +84,7 @@ hr {
 }
 
 #logo {
-    font-size: 200%;
+    font-size: 2rem;
     color: #daa520;
     margin: 0 auto;
     padding: 0.625rem 0;
@@ -97,7 +97,6 @@ hr {
 
 /* navigation bar */
 #menu {
-    font-size: 100%;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
@@ -172,7 +171,7 @@ footer {
 
 .social-networks i {
     color: #daa520;
-    font-size: 160%;
+    font-size: 1.6rem;
     margin: 1.25rem;
     padding: 5px;
 }
@@ -353,7 +352,7 @@ section nav {
     display: inline-block;
     width: 30%;
     list-style-type: none;
-    font-size: 80%;
+    font-size: 0.8rem;
     color: #000000;
     background-color: #daa520;
     border: 1px solid #000000;
@@ -545,11 +544,11 @@ article ul, article ol {
     }
 
     #logo {
-        font-size: 150%;
+        font-size: 1.5rem;
     }
 
     #menu {
-        font-size: 80%;    
+        font-size: 0.8rem;    
     }
 
     .page-title {
@@ -558,7 +557,7 @@ article ul, article ol {
 
     .button {
         width: 50%;
-        font-size: 60%;
+        font-size: 0.6rem;
     }
 
     .center-image {
