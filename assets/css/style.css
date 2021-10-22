@@ -15,7 +15,7 @@ body {
 
 article {
     clear: both;
-    padding-bottom: 30px;
+    padding-bottom: 1.875rem;
 }
 
 /* logo and headings */
@@ -23,7 +23,7 @@ h1, h2, h3, h4 {
     font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
-    padding-bottom: 10px;
+    padding-bottom: 0.625rem;
     text-align: center;
 }
 
@@ -55,7 +55,7 @@ p {
 /* style horizontal rule */
 hr {
     border-top: 1px solid #000000;
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
 }
 
 /* create clear class to clear floats and fully contain all child elements within parent elements  */
@@ -87,7 +87,7 @@ hr {
     font-size: 200%;
     color: #daa520;
     margin: 0 auto;
-    padding: 10px 0;
+    padding: 0.625rem 0;
     display: inline-block;
 }
 
@@ -116,7 +116,7 @@ hr {
     border: 1px solid #000000;
     border-radius: 5px;
     box-sizing: border-box;
-    padding: 10px
+    padding: 0.625rem;
 }
 
 #menu div:hover, #menu .active div:hover {
@@ -148,7 +148,7 @@ section {
     clear: both;
     width: 60%;
     margin: 0 auto;
-    padding: 30px 5%;
+    padding: 1.875rem 5%;
     background-color: rgba(255, 255, 255, 0.9);
     box-sizing: border-box;
 }
@@ -173,7 +173,7 @@ footer {
 .social-networks i {
     color: #daa520;
     font-size: 160%;
-    margin: 20px;
+    margin: 1.25rem;
     padding: 5px;
 }
 
@@ -188,7 +188,7 @@ footer {
 
 .hero-image-spilled {
     background: url('../images/beer-spilled-lower.webp') center center / cover;
-    height: 400px;
+    height: 25rem;
     text-align: center;
 
     /* animates zoom effect on loading page */
@@ -209,7 +209,7 @@ footer {
 
 #hero-image-contact {
     background: url('../images/people-enjoying-beer.webp') center center / cover;
-    min-height: 800px;
+    min-height: 50rem;
     text-align: center;
 }
 
@@ -217,8 +217,8 @@ footer {
 .page-title, #contact-container {
     text-align: center;
     background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 20px;
-    padding: 20px 40px;
+    border-radius: 1.25rem;
+    padding: 1.25rem 2.5rem;
 
     position: absolute;
     top: 50%;
@@ -237,7 +237,7 @@ footer {
 
 /* style home page images */
 .image-gallery {
-    margin: 20px 0;
+    margin: 1.25rem 0;
 }
 
 .slim-image {
@@ -247,22 +247,22 @@ footer {
 }
 
 .slim-image img {
-    width:100%;
-    border-radius: 10px;
+    width: 100%;
+    border-radius: 0.625rem;
     box-sizing: border-box;
     padding: 5px;
 }
 
 .wide-image img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 0.625rem;
 }
 
 /* style form elements */
 form {
     text-align: left;
-    padding-top: 20px;
-    line-height: 30px;
+    padding-top: 1.25rem;
+    line-height: 1.875rem;
 }
 
 .text-input {
@@ -270,13 +270,13 @@ form {
     border: 1px solid #000000;
     border-radius: 5px;
     width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
+    height: 1.6rem;
+    margin: 5px 0 1.25rem 0;
     padding: 5px;
 }
 
 #message {
-    height: 75px;
+    height: 5rem;
     font-family: Roboto, sans-serif;
 }
 
@@ -285,7 +285,7 @@ form p {
 }
 
 .radio-set {
-    margin: 5px 0 20px 0;
+    margin: 5px 0 1.25rem 0;
 }
 
 input[type="submit"] {
@@ -322,8 +322,8 @@ section nav {
 .sub-menu div {
     background-color: rgba(210, 182, 67, 0.7);
     float: left;
-    height: 50px;
-    padding-top: 20px;
+    height: 3.125rem;
+    padding-top: 1.25rem;
     text-align: center;
     border: 1px solid #000000;
     box-sizing: border-box;
@@ -359,7 +359,7 @@ section nav {
     border: 1px solid #000000;
     border-radius: 5px;
     box-sizing: border-box;
-    padding: 12px 10px 10px 10px;
+    padding: 0.75rem 0.625rem 0.625rem 0.625rem;
     text-decoration: none;
     text-align: center;
 }
@@ -372,26 +372,26 @@ section nav {
 
 /* style article list elements */
 article ul, article ol {
-    margin: 5px 0 10px 40px;
+    margin: 5px 0 0.625rem 2.5rem;
 }
 
 /* style tips boxes */
 .tips-box {
     border: 1px solid #000000;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     width: 90%;
-    margin: 20px auto;
-    padding: 20px;
+    margin: 1.25rem auto;
+    padding: 1.25rem;
 }
 
 /* style image boxes */
 .image-container {
     background-color: #ffffff;
     border: 1px solid #000000;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     white-space: nowrap;
     box-sizing: border-box;
-    margin: 20px 10px 5px 10px;
+    margin: 1.25rem 0.625rem 5px 0.625rem;
 
     position: relative;
     padding-bottom: 56.25%;
@@ -412,7 +412,7 @@ article ul, article ol {
 .center-image {
     width: 60%;
     margin: 0 auto;
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
 }
 
 .center-image .image-container {
@@ -431,15 +431,19 @@ article ul, article ol {
 #ferment img {
     width: 150%;
 }
+
 #bottle img {
     width: 130%;
 }
+
 #carbonate img {
     width: 120%;
 }
+
 #enjoy img {
     width: 110%;
 }
+
 #repeat img {
     width: 140%;
     transform: translate(-50%, -48%);
@@ -452,15 +456,15 @@ article ul, article ol {
     text-align: center;
     color: #000000;
     text-decoration: underline #000000;
-    margin: 20px 0 10px 0;
+    margin: 1.25rem 0 0.625rem 0;
 }
 
 .float-margin-adjust {
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .beer-kit-caption {
-    height: 50px;
+    height: 3.125rem;
 }
 
 /* style individual images */
@@ -483,7 +487,7 @@ article ul, article ol {
     padding-top: 35px;
     height: 0;
     overflow: hidden;
-    margin: 10px 0 20px 0;
+    margin: 0.625rem 0 1.25rem 0;
 }
 
 .video-container iframe {
@@ -495,7 +499,7 @@ article ul, article ol {
 }
 
 #videos h4 {
-    padding-top: 30px;
+    padding-top: 1.875rem;
 }
 
 /* media queries for responsive design */
@@ -574,6 +578,6 @@ article ul, article ol {
 
     .social-networks i {
         font-size: 1.2rem;
-        margin: 10px;
+        margin: 0.625rem;
     }
 }
