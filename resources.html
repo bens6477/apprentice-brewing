@@ -48,6 +48,7 @@
 <!-- assign background image to main content section -->
     <div id="background-image-main">
 
+        <!-- create submenu with links to different sections on current page -->
         <nav id="resources-menu" class="container sub-menu heading-text">
             <a href="#retailers">
                 <div>Retailers</div>
@@ -60,16 +61,19 @@
             </a>
         </nav>
 
+        <!-- start of main section about brewing beer -->
         <section class="container">
             <h2>Get Started</h2>
             <br>
 
+            <!-- segment outlining recommended retailer for customers to purchase equipment/ingredients from -->
             <article id="retailers">
                 <h3>Recommended Retailers</h3>
                 <hr>
                 <p>
                     To get you started on your brewing journey, here's some established and well rated beer kit manufacturers. Click the links below to browse their full stock of products.
                 </p>
+                <!-- create floating link box which redirects to specified website. This is uniform across the retailers and beer-kits articles -->
                 <a class="float-link" href="https://www.lovebrewing.co.uk/" target="_blank" rel=noopener aria-label="Visit the Love Brewing retailer website (opens in a new tab)">
                     <div class="image-container">
                         <img id="love-brewing-logo" src="assets/images/love-brewing-logo.webp" alt="Love Brewing Logo">
@@ -94,9 +98,11 @@
                     </div>
                     <h4>Northern Brewer</h4>
                 </a>
+                <!-- clear floats to fully encapsulate all child elements within parent article -->
                 <br class="clear">
             </article>
     
+            <!-- segment outlining the best beer kits available on the market -->
             <article id="beer-kits">
                 <h3>Best Beer Kits</h3>
                 <hr>
@@ -139,9 +145,11 @@
                         <em>£95.50</em>
                     </h4>
                 </a>
+                <!-- clear floats to fully encapsulate all child elements within parent article -->
                 <br class="clear">
             </article>            
 
+            <!-- segment outlining tutorial videos for user to learn from experienced brewers -->
             <article id="videos">
                 <h3>Tutorial Videos</h3>
                 <hr>
@@ -149,22 +157,25 @@
                     Often the best way to learn a new skill is by imitating someone else. Get stuck in by following the tips from homebrew enthhusiasts in these tutorial videos.   
                 </p>
                 
+                <!-- add embedded YouTube video using iframe element -->
                 <h4 id="coopers-official-tutotial">How To Make Great Tasting Beer At Home</h4>
                 <div class="video-container">
                     <iframe src="https://www.youtube.com/embed/T1l1oCyCZKo" title="YouTube video player" allow="clipboard-write; encrypted-media; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 
-                
+                <!-- add embedded YouTube video using iframe element -->
                 <h4 id="coopers-user-tutotial">Coopers Lager 40-Pint Walkthrough</h4>
                 <div class="video-container">
                     <iframe src="https://www.youtube.com/embed/SkpxH7FxLxU" title="Coopers Lager 40 Pint Home Brew Beer Kit, our experience - Part 1" allow="clipboard-write; encrypted-media; picture-in-picture" allowfullscreen></iframe>
                 </div>
 
+                <!-- add embedded YouTube video using iframe element -->
                 <h4 id="siphoning-tutorial">A Guide To Siphoning</h4>
                 <div class="video-container">
                     <iframe src="https://www.youtube.com/embed/bYnQmyGlotQ" title="A Guide To Siphoning" allow="clipboard-write; encrypted-media; picture-in-picture" allowfullscreen></iframe>                </div>
             </article>
 
+            <!-- button to return to top of current page -->
             <nav class="return-menu heading-text">
                 <a class="button" href="#resources-menu">
                     <div>Return To Top</div>
