@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- add head metadata, link to stylesheet and add title -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,14 +10,18 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Apprentice Brewing</title>
 </head>
+
 <body>
+    <!-- main fixed header -->
     <header class="fixed-header">
+        <!-- add logo within an anchor element -->
         <div class="header-logo">
             <a href="index.html">
                 <h1 id="logo">Apprentice Brewing</h1>
             </a>
         </div>
         
+        <!-- main navbar menu elements within anchor elements -->
         <div class="header-nav">
             <nav id="menu" class="heading-text">
                 <a href="index.html" class="active">
@@ -32,6 +37,7 @@
         </div>
     </header>
 
+    <!-- create hero image section. Outer and inner classes used for zoom overflow control -->
     <section class="hero-outer">
         <div class="hero-image-spilled"></div>
         <div class="page-title">
@@ -40,9 +46,10 @@
     </section>
 
     
-
+<!-- assign background image to main content section -->
     <div id="background-image-main">
 
+        <!-- introductory section to website -->
         <section id="who-we-are" class="container">
             <h3>Who We Are</h3>
             <hr>
@@ -61,6 +68,7 @@
                 So get learning, brewing, tasting your very own liquid courage!
             </p>
 
+            <!-- small image gallery for aesthetics -->
             <div class="image-gallery">
                 <div class="slim-image">
                     <img src="assets/images/beer-cheers.webp" alt="Group Of People Raising A Glass">
@@ -75,8 +83,11 @@
             </div>
         </section>
 
+        <!-- contact form -->
+        <!-- add hero image background for contact form -->
         <section class="hero-outer">
             <div id="hero-image-contact">
+                <!-- add content to contact form -->
                 <div id="contact-container">
                     <h3>Get in touch</h3>
                     <hr>
@@ -114,11 +125,12 @@
                     </form>
                 </div>
             </div>
-            
         </section>
     </div>    
 
+    <!-- footer section -->
     <footer>
+        <!-- add list of social media network links -->
         <ul class="social-networks">
             <li>
                 <a href="https://facebook.com" target="_blank" rel=noopener aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
