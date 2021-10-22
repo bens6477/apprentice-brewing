@@ -94,6 +94,8 @@ Various additional features would bring a greater user experience to the website
 * The addition of a dedicated 'Tips' webpage would enable brewers to build upon their base knowledge by learning concepts including how to improve their process in brewing, the taste of their beer, and how to experiment with new flavours.
 * The addition of user feedback through comments sections would allow for continual site improvement and additional perspectives from fellow brewers.
 * The addition of a user up/down-voting system on the recommended products would help users to make an informed decision on what to buy by considering the recommendations of the site users.
+* The addition of a community upload page, where users can post and descibe their own batches, and users can share general discussions about their shared interest in homebrewing beer.
+* The embedded YouTube videos are resource heavy elements that cause a significant reduction in the performance of the website due to the eager-loading of videos upon the initial load of the webpage. As a result, it would be beneficial to introduce lazy-loading of videos, to ensure that only the data required by the user are loaded and therefore improving the performance of the website. Should users wish to then watch the tutorial videos, they can be loaded upon request.
 
 
 ## Technology Used
@@ -110,6 +112,10 @@ Various additional features would bring a greater user experience to the website
 * All embedded videos play within the site when clicked and successfully redirect to the Youtube site when requested. 
 * The website was tested across various browsers, including Google Chrome, Mozilla Firefox and Microsoft Edge.
 * The website was responsive across screen sizes between 320px and 1600px in width. Content readablility was optimised by altering the size and positioning of elements. The Developer Tools function was used to test this across Google Chrome, Mozilla Firefox and Microsoft Edge to verify the site was fully responsive across the specificed screen witdhs and across different browsers.
+* The contact form was tested by checking all possible input combinations. Such checks included:
+    * Ensuring that the form is not submitted empty, without any information inputted.
+    * Ensuring that the all required field were completed before submitting the form. All fields except the message were required, as users do not need to submit a comment.
+    * Ensuring that the inputted email address was in the correct form and included the '@' sign.
 
 ### Validator Testing
 #### HTML
@@ -135,6 +141,9 @@ Various additional features would bring a greater user experience to the website
     * **Reference code*
 * **Issue** - Content moving onto next line on smaller screens
     * **Resolution** - Media queries were introduced depending on screen size to target elements for responsive deign. As the screen size reduced, the width of the content container was increased to fit in more content, the logo, menu items and footer icon font-size was reduced to fit on one line.
+
+* **Issue** - Beer bubble panning effect on submenus not working on smaller screens
+    * **Resolution** - On smaller screens, the submenu rearranges to fit the divisions vertically rather than horizontally (e.g. from 2 rows and 4 columns to 4 rows and 2 columns). As a result, smaller screens showed a higher proportion of the height of the background image in the submenu, thus leaving very little or no pixels to pan across. Therefore, media queries were added to smaller screen sizes to increase the zoom of the beer bubbles image, and make the animation more prevalent.
 
 * **Issue** - Elements moving onto next line upon adding padding and margins
     * **Resolution** - The box-sizing: border box attribute was added which included padding and margins in the width of elements. This meant no compensation in width was required when assigning equal widths to elements. For example, this was used in the navbar menu, and submenus product link boxes.  
