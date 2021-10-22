@@ -1,9 +1,8 @@
 # Apprentice Brewing
 
 ## Site Overview
-Apprentice Brewing was founded to educate and engage people in the creative world of homebrewing.
+Apprentice Brewing was founded to educate and engage people in the creative world of homebrewing. Users of the site will be able to discover the process and methods of brewing beer at home, explore the available products and retailers specialising in homebrew equipment and learn tips from experienced brewers through tutorial videos.
 
-The contrasting colours of white, grey and black helps establish that the page is set in the early 1900’s due to cameras being in black and white.
 ![Apprentice Brewing website running on Am I Responsive website](assets/images/readme/am-i-responsive.webp)
 
 ## Contents
