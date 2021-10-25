@@ -148,16 +148,16 @@ Various additional features would bring a greater user experience to the website
 ### Bugs
 * **Issue** - Centering images and headings within div elements
     * **Resolution** - Initially a supplementary empty div was placed about the image requiring centering to act as a spacer. However a much cleaner and simpler solution was employed by using  the transform:translate(50%, 50%) function alongside relative positioning. This enabled the element to be positioned relative to its center rather than the edges.
-    * **Reference code*
+
 * **Issue** - Fully containing floated elements within parent div elements
     * **Resolution** - A br element was created with class="clear" which assigned attributes of clear:both and line-height:0. This meant that any floats currently active were cancelled and the br element expanded the div element to fully contain all child elements.
-    * **Reference code*
+
 * **Issue** - Header blocking the section titles after clicking on submenu hyperlinks
-    * **Resolution** - An additional buffer was added when redirecting to different section via scroll-padding-top: 6rem. This added 6rem on to the absolue position of the titles to accomodate with the height of the header.
-    * **Reference code*
+    * **Resolution** - An additional buffer was added when redirecting to different section via scroll-padding-top: 7rem. This added 7rem on to the absolue position of the titles to accomodate with the height of the header. The scroll-behavior was also set to smooth to dynamically scroll down to the relevant section rather than immediately relocating.
+
 * **Issue** - Centering video 
     * **Resolution** - A class="video-contianer" was created, with hidden overflow and position set to relative. padding-bottom:56.25% was used to create an aspect ratio of 16:9 relative to the width. height:0 as the padding-bottom dictated the size of the container. Within this class, the iframe was selected and assigned absolute positioning, with width and height both 100% and aligned from the top-left edges. This created an iframe video which was centered within its container, which was also centered on the page.
-    * **Reference code*
+
 * **Issue** - Content moving onto next line on smaller screens
     * **Resolution** - Media queries were introduced depending on screen size to target elements for responsive deign. As the screen size reduced, the width of the content container was increased to fit in more content, the logo, menu items and footer icon font-size was reduced to fit on one line.
 
