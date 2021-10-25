@@ -48,6 +48,7 @@ Apprentice Brewing was founded to educate and engage people in the creative worl
 * The site's main colours of black, white and gold were chosen to mimic the golden colours in a pint of lager within the dim setting of a pub.
 * A colour grid was created to evaluate appropriate colour pairings using the [Eight Shapes Color Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23ffffff%0D%0A%23000000%0D%0A%23daa520%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp)
 * From this it was decided that all fonts would be kept black upon either white or golden background colours in order to provide sufficient contrast for the users. The inversion was also used to highlight active classes or upon hovering over elements.
+
 ![Colour Contrast](assets/images/readme/color-contrast.PNG)
 
 
@@ -57,35 +58,42 @@ Apprentice Brewing was founded to educate and engage people in the creative worl
 * The submenus in the Brew and Resources pages allow the user to skip to the section they desire to view without manually scrolling themselves.
 * Throughout the website there are several anchor elements which redirect the user to relevant pages and sub-sections of the website. For example in the introduction, several pages and sections within the website are hyperlinked within the paragraph to quickly redirect the user. The the text is underlined upon hovering the cursor over the hyperlinks to indicate to the user that it is an active link.  
 * There is also a 'Return To Top' button at the bottom of the page to save the user from scrolling back up to the top of the page.
+
 ![Header](assets/images/readme/header.PNG)
 
 ### Introduction
 * Users are welcomed to the site by an introduction to the Apprentice Brewing organisation and a small gallery of homebrew beer to encourage curiosity for the user to explore the site more.
+
 ![Introduction section](assets/images/readme/who-we-are.PNG)
 
 ### Contact Form
 * The contact from enables users to contact us with any questions they may have about brewing or the organisation. They also have the option to join the mailing list to stay informed on company updates and recommendations.
-* The background image of people laughing and enjoying a beer expresses the company's desire to connect with their user community and encourages the user to get in touch.  
+* The background image of people laughing and enjoying a beer expresses the company's desire to connect with their user community and encourages the user to get in touch.
+
 ![Contact Form](assets/images/readme/contact-form.PNG)
 
 ### Animations
 * Hero Image Zoom
 This is the first thing the user will see on the site as the image is animated to zoom in 10% upon loading the page.
 * Submenu Pan
-The submenus are designed with a background image of the carbonation bubbles within a beer. Upon loading the pages the image scrolls from the top of the image to the bottom, giving the impression that the bubbles are rising through the menu.  
+The submenus are designed with a background image of the carbonation bubbles within a beer. Upon loading the pages the image scrolls from the top of the image to the bottom, giving the impression that the bubbles are rising through the menu.
+
 ![Hero image](assets/images/readme/hero-image.PNG)
 
 ### Brewing Guide
 * The Equipment section provides direct hyperlinks to each product. This allows the user to familiarise themselves with what product looks like, and with a recommendation of a cheap option for each product should they wish to buy them.
+
 ![Brewing guide](assets/images/readme/brew-guide.PNG)
 
 ### Recommended Resources
 * The resources section offer the user with products and information for them to explore to get started. Four key retailers are recommended, which vary in price and quality, so that a wide budget range is covered.
-* Users can click on each retailer anchor block to be redirected to their respectivel websites. Each website opens in a new tab to keep the user's position on our website to easily return to the resources page later. 
+* Users can click on each retailer anchor block to be redirected to their respectivel websites. Each website opens in a new tab to keep the user's position on our website to easily return to the resources page later.
+
 ![Best beer kits](assets/images/readme/best-beer-kits.PNG)
 
 ### Tutorial Videos
 * The tutorial videos allow users to visually learn from expert brewers and beer enthusiasts to accelerate their knowledge of brewing processes and technques. Users can choose to open the videos externally on the Youtube in another tab by clicking the integrated 'Watch on YouTube' button.
+
 ![Embedded tutorial video](assets/images/readme/embedded-videos.PNG)
 
 
@@ -95,7 +103,7 @@ Various additional features would bring a greater user experience to the website
 * The addition of user feedback through comments sections would allow for continual site improvement and additional perspectives from fellow brewers.
 * The addition of a user up/down-voting system on the recommended products would help users to make an informed decision on what to buy by considering the recommendations of the site users.
 * The addition of a community upload page, where users can post and descibe their own batches, and users can share general discussions about their shared interest in homebrewing beer.
-* The embedded YouTube videos are resource heavy elements that cause a significant reduction in the performance of the website due to the eager-loading of videos upon the initial load of the webpage. As a result, it would be beneficial to introduce lazy-loading of videos, to ensure that only the data required by the user are loaded and therefore improving the performance of the website. Should users wish to then watch the tutorial videos, they can be loaded upon request.
+* The embedded YouTube videos are resource heavy elements that cause a significant reduction in the performance of the website on mobile devices due to the eager-loading of videos upon the initial load of the webpage. As a result, it would be beneficial to introduce lazy-loading of videos, to ensure that only the data required by the user are loaded and therefore improving the performance of the website. Should users wish to then watch the tutorial videos, they can be loaded upon request.
 
 
 ## Technology Used
@@ -109,13 +117,24 @@ Various additional features would bring a greater user experience to the website
 
 ## Testing
 * All links and images on the website work correctly and all elements are responsive to screen size.
-* All embedded videos play within the site when clicked and successfully redirect to the Youtube site when requested. 
-* The website was tested across various browsers, including Google Chrome, Mozilla Firefox and Microsoft Edge.
-* The website was responsive across screen sizes between 320px and 1600px in width. Content readablility was optimised by altering the size and positioning of elements. The Developer Tools function was used to test this across Google Chrome, Mozilla Firefox and Microsoft Edge to verify the site was fully responsive across the specificed screen witdhs and across different browsers.
 * The contact form was tested by checking all possible input combinations. Such checks included:
     * Ensuring that the form is not submitted empty, without any information inputted.
     * Ensuring that the all required field were completed before submitting the form. All fields except the message were required, as users do not need to submit a comment.
     * Ensuring that the inputted email address was in the correct form and included the '@' sign.
+* All embedded videos play within the site when clicked and successfully redirect to the Youtube site when requested.
+* The website was tested across various browsers, including Google Chrome, Mozilla Firefox and Microsoft Edge.
+### Developer Tools
+* The Developer Tools function was used to test this across Google Chrome, Mozilla Firefox and Microsoft Edge to verify the site was fully responsive across the specificed screen witdhs and across different browsers.
+* The website was responsive across screen sizes between 320px and 1600px in width. Content readablility was optimised by altering the size and positioning of elements. 
+* The website was designed using a desktop-first approach, therefore the image resolutions were optimised to look better on larger screens. This resulted in a lower performance score on mobile devices as the image resolution was much larger than the maximum screen resolution.
+* As mentioned before, the eager-loading of embedded videos caused a significant reduction to the performance on mobile devices. Thus, the 'Resources' page exhibited a lower performance score compared to the other pages.
+
+#### Desktop Homepage Lightouse Results
+![Desktop Homepage Lightouse Results](assets/images/readme/lighthouse-results-desktop-about.PNG)
+
+#### Mobile Homepage Lightouse Results
+![Mobile Homepage Lighthouse Results](assets/images/readme/lighthouse-results-mobile-about.PNG)
+
 
 ### Validator Testing
 #### HTML
@@ -123,8 +142,8 @@ Various additional features would bring a greater user experience to the website
 #### CSS
 * No errors were found when running the css code through the [official W3C Jigsaw validator](https://jigsaw.w3.org/css-validator/)
 #### Accessibility
-* The website was tested using the Lighthouse function in Chrome DevTools, showing a very high level of accessibility.
-![Lighthouse results](assets/images/readme/lighthouse-results.webp)
+* The website was tested using the Lighthouse function in Chrome DevTools, showing a accessibility level of 100%.
+    
 
 ### Bugs
 * **Issue** - Centering images and headings within div elements
@@ -172,10 +191,11 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 * All fonts were imported from [Google Fonts](https://fonts.google.com/)
 
 ### Media
-* The background and hero images were taken from - https://www.pexels.com/
+* The background and hero images were taken from [Pexels](https://www.pexels.com/)
+* The images from the How To Brew section were taken from [Pexels](https://www.pexels.com/), [Kegerator](https://learn.kegerator.com/homebrew-cleaning-sanitation/), [Serious Eats](https://www.seriouseats.com/homebrewing-what-you-need-for-your-first-brew-equipment), [All Recipes](https://www.allrecipes.com/article/how-to-brew-beer/) and [Renegade Brewing](https://renegadebrewing.com/what-is-a-rack-of-beer/)
 * The tutorial videos were taken from:
     * [How to make great tasting beer at home.](https://www.youtube.com/watch?v=T1l1oCyCZKo)
     * [Coopers Lager 40 Pint Home Brew Beer Kit, our experience - Part 1](https://www.youtube.com/watch?v=SkpxH7FxLxU)
     * [A Guide To Siphoning](https://www.youtube.com/watch?v=bYnQmyGlotQ)
 * The code to make the videos responsive was found at - https://www.smashingmagazine.com/2014/02/making-embedded-content-work-in-responsive-design/
-* The CSS to pan across the beer bubbles background image was taken from - https://stackoverflow.com/questions/33835096/css-to-pan-background-image-back-and-forth
+* The code to pan across the beer bubbles background image was taken from - https://stackoverflow.com/questions/33835096/css-to-pan-background-image-back-and-forth
