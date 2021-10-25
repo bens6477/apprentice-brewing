@@ -1,4 +1,7 @@
+/* import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto&display=swap');
+
+/* add base styling */
 * {
     margin: 0;
     padding: 0;
@@ -42,6 +45,7 @@ p {
     padding-bottom: 5px;
 }
 
+/* add styling to in-text hyperlinks */
 .hyperlink {
     font-weight: 600;
     color: #000000;
@@ -212,7 +216,7 @@ footer {
     text-align: center;
 }
 
-/* hero blocks */
+/* style hero block and contact section */
 .page-title, #contact-container {
     text-align: center;
     background-color: rgba(255, 255, 255, 0.9);

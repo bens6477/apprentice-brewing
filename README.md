@@ -21,6 +21,7 @@ Apprentice Brewing was founded to educate and engage people in the creative worl
 1. [Future Enhancements](#future-enhancements)
 1. [Technology Used](#technology-used)
 1. [Testing](#testing)
+    * [Developer Tools](#developer-tools)
     * [Validator Testing](#validator-testing)
     * [Bugs](#bugs)
     * [Unfixed Bugs](#unfixed-bugs)
@@ -197,5 +198,6 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
     * [How to make great tasting beer at home.](https://www.youtube.com/watch?v=T1l1oCyCZKo)
     * [Coopers Lager 40 Pint Home Brew Beer Kit, our experience - Part 1](https://www.youtube.com/watch?v=SkpxH7FxLxU)
     * [A Guide To Siphoning](https://www.youtube.com/watch?v=bYnQmyGlotQ)
+* The image displaying the website on different screens in this document was created using [Am I Responsive](http://ami.responsivedesign.is/)
 * The code to make the videos responsive was found at - https://www.smashingmagazine.com/2014/02/making-embedded-content-work-in-responsive-design/
 * The code to pan across the beer bubbles background image was taken from - https://stackoverflow.com/questions/33835096/css-to-pan-background-image-back-and-forth
